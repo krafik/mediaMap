@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.item{
+  width: 100%;
+}
+.accordion.activeAcc{
+  background-color: #cccccc;
+}
+.accordion:hover {
+  background-color: #ccc;
+}
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.activeAcc:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.tele,
+.pIzd,
+.infoAgenstva,
+.radio{
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  transition: all 0.2s ease-out;
+}
+
+.mediamap {
+  display: flex;
+}
+.crimea {
+  flex-basis: 60%;
+}
+.info {
+  flex-basis: 40%;
+  padding: 0 30px;
+}
+.info .close img{
+width: 20px;
+}
+.infoSimf,
+.infoSudak,
+.infoYalta,
+.infoAlushta,
+.infoFeo,
+.infoKerch,
+.infoDjank,
+.infoBahch,
+.infoSevas,
+.infoEvpa,
+.infoSaki,
+.wrapAlfa{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 10px 0;
+  display: none;
+}
+.wrapAlfa>.a > button{
+  width: 90%;
+}
+.wrapAlfa > .a{
+
+}
+.st3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+#sudak:hover .st3,
+#simf:hover .st3,
+#yalta:hover .st3,
+#alushta:hover .st3,
+#feo:hover .st3,
+#kerch:hover .st3,
+#Djank:hover .st3,
+#bahch:hover .st3,
+#sevas:hover .st3,
+#evpa:hover .st3,
+#saki:hover .st3 {
+  font-size: 32px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+#l17,
+#l15,
+#l18,
+#l16,
+#l12,
+#l27,
+#l4,
+#l21,
+#l22,
+#l24,
+#l25 {
+  transition: all 1s ease;
+}
+
+#sudak text,
+#simf text,
+#yalta text,
+#alushta text,
+#feo text,
+#kerch text,
+#Djank text,
+#bahch text,
+#sevas text,
+#evpa text,
+#saki text {
+  transition: all 1s ease;
+}
+
+.scale {
+  /* transform: scale(1.1); */
+}
+
+.some {
+  transform: translate3d(0, -20px, 80px);
+  transition: all 1s ease;
+  z-index: 1;
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+}
+
+.some .st1{
+  stroke: rgb(51, 48, 48);
+  transition: all 1s ease;
+}
+
+.st0 {
+  transition: all 1s ease;
+}
+
+.active {
+  display: flex;
+}
+.activeDistr{
+  transform: translate3d(0, -20px, 80px);
+  transition: all 1s ease;
+  z-index: 1;
+}
+.activeDistr .st1{
+  stroke: red;
+  transition: all 1s ease;
+}
+.a{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+.a > ul {
+  display: none;
+}
