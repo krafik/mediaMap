@@ -60,8 +60,8 @@ let closeBtnSaki = infoSaki.querySelector('.close');
 sudak.addEventListener('mouseover',function(){addClass(sudakDistr); });
 sudak.addEventListener('mouseout',function(){rClass(sudakDistr);  });
 sudak.addEventListener('click',function(){
-infoSudak.classList.add('active');
-sudakDistr.classList.add('activeDistr');
+infoSudak.classList.toggle('active');
+sudakDistr.classList.toggle('activeDistr');
 console.log('success');
 });
 closeBtnS.addEventListener('click',function(){
@@ -73,8 +73,8 @@ closeBtnS.addEventListener('click',function(){
 simf.addEventListener('mouseover',function(){ addClass(simfDistr);});
 simf.addEventListener('mouseout',function(){  rClass(simfDistr);});
 simf.addEventListener('click',function(){
-  infoSimf.classList.add('active');
-  simfDistr.classList.add('activeDistr');
+  infoSimf.classList.toggle('active');
+  simfDistr.classList.toggle('activeDistr');
   console.log('success');
   });
 closeBtnSimf.addEventListener('click',function(){
@@ -86,8 +86,8 @@ closeBtnSimf.addEventListener('click',function(){
 yalta.addEventListener('mouseover',function(){ addClass(yDistr);});
 yalta.addEventListener('mouseout',function(){  rClass(yDistr);});
 yalta.addEventListener('click',function(){
-  infoYalta.classList.add('active');
-  yDistr.classList.add('activeDistr');
+  infoYalta.classList.toggle('active');
+  yDistr.classList.toggle('activeDistr');
   console.log('success');
   });
 closeBtnY.addEventListener('click',function(){
@@ -98,8 +98,8 @@ closeBtnY.addEventListener('click',function(){
 alushta .addEventListener('mouseover',function(){  addClass(aDistr);});
 alushta .addEventListener('mouseout',function(){  rClass(aDistr);});
 alushta.addEventListener('click',function(){
-  infoAlushta.classList.add('active');
-  aDistr.classList.add('activeDistr');
+  infoAlushta.classList.toggle('active');
+  aDistr.classList.toggle('activeDistr');
   console.log('success');
   });
   closeBtnA.addEventListener('click',function(){
@@ -110,8 +110,8 @@ alushta.addEventListener('click',function(){
 feo.addEventListener('mouseover',function(){  addClass(fDistr);});
 feo.addEventListener('mouseout',function(){  rClass(fDistr);});
 feo.addEventListener('click',function(){
-  infoFeo.classList.add('active');
-  fDistr.classList.add('activeDistr');
+  infoFeo.classList.toggle('active');
+  fDistr.classList.toggle('activeDistr');
   console.log('success');
   });
   closeBtnF.addEventListener('click',function(){
@@ -122,8 +122,8 @@ feo.addEventListener('click',function(){
 kerch.addEventListener('mouseover',function(){  addClass(kDistr);});
 kerch.addEventListener('mouseout',function(){  rClass(kDistr);});
 kerch.addEventListener('click',function(){
-  infoKerch.classList.add('active');
-  kDistr.classList.add('activeDistr');
+  infoKerch.classList.toggle('active');
+  kDistr.classList.toggle('activeDistr');
   console.log('success');
   });
   closeBtnK.addEventListener('click',function(){
@@ -135,8 +135,8 @@ kerch.addEventListener('click',function(){
 Djank.addEventListener('mouseover',function(){  addClass(dDistr);});
 Djank.addEventListener('mouseout',function(){  rClass(dDistr);});
 Djank.addEventListener('click',function(){
-  infoDjank.classList.add('active');
-  dDistr.classList.add('activeDistr');
+  infoDjank.classList.toggle('active');
+  dDistr.classList.toggle('activeDistr');
   console.log('success');
   });
   closeBtnD.addEventListener('click',function(){
@@ -148,8 +148,8 @@ Djank.addEventListener('click',function(){
 bahch.addEventListener('mouseover',function(){  addClass(bDistr);});
 bahch.addEventListener('mouseout',function(){  rClass(bDistr);});
 bahch.addEventListener('click',function(){
-  infoBahch.classList.add('active');
-  bDistr.classList.add('activeDistr');
+  infoBahch.classList.toggle('active');
+  bDistr.classList.toggle('activeDistr');
   console.log('success');
   });
   closeBtnB.addEventListener('click',function(){
@@ -160,8 +160,8 @@ bahch.addEventListener('click',function(){
 sevas.addEventListener('mouseover',function(){  addClass(sDistr);});
 sevas.addEventListener('mouseout',function(){  rClass(sDistr);});
 sevas.addEventListener('click',function(){
-  infoSevas.classList.add('active');
-  sDistr.classList.add('activeDistr');
+  infoSevas.classList.toggle('active');
+  sDistr.classList.toggle('activeDistr');
   console.log('success');
   });
   closeBtnSevas.addEventListener('click',function(){
@@ -172,8 +172,8 @@ sevas.addEventListener('click',function(){
 evpa.addEventListener('mouseover',function(){  addClass(eDistr);});
 evpa.addEventListener('mouseout',function(){  rClass(eDistr);});
 evpa.addEventListener('click',function(){
-  infoEvpa.classList.add('active');
-  eDistr.classList.add('activeDistr');
+  infoEvpa.classList.toggle('active');
+  eDistr.classList.toggle('activeDistr');
   console.log('success');
   });
   closeBtnE.addEventListener('click',function(){
@@ -185,8 +185,8 @@ evpa.addEventListener('click',function(){
 saki.addEventListener('mouseover',function(){  addClass(sakiDistr);});
 saki.addEventListener('mouseout',function(){  rClass(sakiDistr);});
 saki.addEventListener('click',function(){
-  infoSaki.classList.add('active');
-  sakiDistr.classList.add('activeDistr');
+  infoSaki.classList.toggle('active');
+  sakiDistr.classList.toggle('activeDistr');
   console.log('success');
   });
   closeBtnSaki.addEventListener('click',function(){
